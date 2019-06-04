@@ -2,7 +2,6 @@ document.addEventListener('keydown', (e) => {
   let keyCode = e.keyCode;
   let targetDiv = document.getElementById(keyCode)
   if (targetDiv === null) {
-    // console.log(e.code, " ", e.keyCode)
     return;
   }
   targetDiv.classList.remove("key")
